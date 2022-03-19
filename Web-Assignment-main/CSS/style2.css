@@ -1,0 +1,57 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.anc:hover{
+    background-color: #99ffff;
+}
+.anc2:hover{
+    background-color: #99ffff;
+}
+
+
+.container{
+    background:url('../Images/DES/bg.jpg');
+    min-height: 90vh;
+    min-width: 90vw;
+    margin:5em auto; 
+    /* border: 2px solid black; */
+    max-width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;    
+}
+
+.txtbg{
+    margin: auto;
+    margin-left:60%;
+    border:5px solid white;
+    width:20%;
+    padding:3rem 2rem;
+    height:25em;
+    color:white;
+    font-size:1.4em; 
+}
+
+.anc{
+    padding:0.5rem 2rem;
+    border:2px solid white;
+    cursor: pointer;
+}
+
+.txtbg2{
+    margin: auto;
+    margin-right:60%;
+    border:5px solid white;
+    width:20%;
+    padding:3rem 2rem;
+    height:25em;
+    color:white;
+    font-size:1.4em; 
+}
+
+.anc2{
+    padding:0.5rem 2rem;
+    border:2px solid white;
+    cursor: pointer;
+}
